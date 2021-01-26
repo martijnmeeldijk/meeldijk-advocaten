@@ -39,7 +39,7 @@
                     <ul class="list-unstyled">
                         <li><a href="#section-home">Home</a></li>
                         <li><a href="#section-about">Wat wij leveren</a></li>
-                        <li><a href="#section-menu">GDPR</a></li>
+                        <li><a href="#section-gdpr">GDPR</a></li>
                         <li><a href="#section-contact">Contact</a></li>
                     </ul>
                 </div>
@@ -122,18 +122,19 @@
                         </div>
                     </div>
                 </div> <!-- .section -->
-
-                <div class="section pb-3 bg-white" id="section-gdpr" data-aos="fade-up">
-                    <div class="container">
-                        <div class="row align-items-center justify-content-center">
-                            <div class="col-md-12 col-lg-8 section-heading">
-                                <h2 class="heading mb-5">GDPR</h2>
-                                <p>Hier gaat henkie een leuke tekst over GDPR schrijven</p>
-                                <p>Mooi zo.</p>
+                <div id="section-gdpr">
+                    <div class="section pb-3 bg-white" data-aos="fade-up">
+                        <div class="container">
+                            <div class="row align-items-center justify-content-center">
+                                <div class="col-md-12 col-lg-8 section-heading">
+                                    <h2 class="heading mb-5">GDPR</h2>
+                                    <p>Hier gaat henkie een leuke tekst over GDPR schrijven</p>
+                                    <p>Mooi zo.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div> <!-- .section -->
+                    </div> <!-- .section -->
+                </div>
 
                 <div class="section" data-aos="fade-up" id="section-contact">
                     <div class="container">
@@ -142,48 +143,46 @@
                                 <h2 class="heading mb-3">Contact</h2>
                             </div>
                         </div>
-                        <div class="row justify-content-center">
-                            <div class="row">
-                                <div class="col-m mb-5d-6 col-lg-4" data-aos="fade-up">
-                                    <div class="media feature-icon d-block text-center">
-                                        <div class="icon">
-                                            <i style="color: black" class="fa fa-4x fa-phone"></i>
-                                        </div>
-                                        <div class="media-body">
-                                            <h3>Telefoon</h3>
-                                            <p>+32 16 39 47 12</p>
-                                        </div>
+                        <div class="row justify-content-center m-3">
+                            <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up">
+                                <div class="media feature-icon d-block text-center">
+                                    <div class="icon">
+                                        <i style="color: black" class="fa fa-4x fa-phone"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>Telefoon</h3>
+                                        <p>+32 16 39 47 12</p>
                                     </div>
                                 </div>
-                                <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="100">
-                                    <div class="media feature-icon d-block text-center">
-                                        <div class="icon">
-                                            <i style="color: black" class="fa fa-4x fa-envelope"></i>
-                                        </div>
-                                        <div class="media-body">
-                                            <h3>Email</h3>
-                                            <p><a href="mailto:info@meeldijk-advocaten.be">info@meeldijk-advocaten.be</a></p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="300">
-                                    <div class="media feature-icon d-block text-center">
-                                        <div class="icon">
-                                            <i style="color: black" class="fa fa-4x fa-map"></i>
-                                        </div>
-                                        <div class="media-body">
-                                            <h3>Adres</h3>
-                                            <p>Interleuvenlaan 62 <br />
-                                                3001 Leuven
-                                                BELGIUM
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-
                             </div>
+                            <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="100">
+                                <div class="media feature-icon d-block text-center">
+                                    <div class="icon">
+                                        <i style="color: black" class="fa fa-4x fa-envelope"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>Email</h3>
+                                        <p><a href="mailto:info@meeldijk-advocaten.be">info@meeldijk-advocaten.be</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 mb-5" data-aos="fade-up" data-aos-delay="300">
+                                <div class="media feature-icon d-block text-center">
+                                    <div class="icon">
+                                        <i style="color: black" class="fa fa-4x fa-map"></i>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3>Adres</h3>
+                                        <p>Interleuvenlaan 62 <br />
+                                            3001 Leuven
+                                            BELGIUM
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
                         </div>
                     </div>
                 </div> <!-- .section -->
@@ -197,17 +196,19 @@
                             <div class="col-md-4 mb-5">
                                 <div class="footer-widget">
                                     <h3 class="mb-4">About Meal</h3>
-                                    <p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. </p>
+                                    <p>Meeldijk Advocaten &copy;<script>
+                                            document.write(new Date().getFullYear());
+                                        </script>
+                                    </p>
 
-                                    <p><a href="#" class="btn btn-primary btn-outline-primary">Read More</a></p>
+                                    <p><a href="#section-contact" class="btn btn-primary btn-outline-primary">Contacteer ons</a></p>
                                 </div>
                             </div>
                             <div class="col-md-4 mb-5">
                                 <div class="footer-widget">
-                                    <h3 class="mb-4">Lunch Service</h3>
-                                    <p>Booking from 12:00pm &mdash; 1:30pm</p>
-                                    <h3 class="mb-4">Dinner Service</h3>
-                                    <p>Everyday: <br> Booking from 6:00pm &mdash; 9:00pm</p>
+                                    <h3 class="mb-4">Openingstijden</h3>
+                                    <p>Elke weekdag tussen 9:30am &mdash; 6pm</p>
+
                                 </div>
                             </div>
 
